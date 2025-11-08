@@ -3,150 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maham Saleem - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    /* General reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #4b0082, #8a2be2);
-      color: white;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-    }
-
-    header {
-      text-align: center;
-      padding: 60px 20px 30px;
-    }
-
-    header h1 {
-      font-size: 2.8em;
-      letter-spacing: 1px;
-      font-weight: 600;
-    }
-
-    header p {
-      font-size: 1.2em;
-      color: #d8b9ff;
-      margin-top: 10px;
-    }
-
-    section {
-      max-width: 900px;
-      width: 90%;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-      padding: 30px;
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      border-bottom: 2px solid #d8b9ff;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-      font-weight: 500;
-    }
-
-    ul {
-      list-style: none;
-      line-height: 1.8em;
-    }
-
-    .skills span {
-      background: #d8b9ff;
-      color: #4b0082;
-      padding: 5px 10px;
-      border-radius: 20px;
-      margin-right: 10px;
-      display: inline-block;
-      margin-bottom: 10px;
-      font-size: 0.9em;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: auto;
-      font-size: 0.9em;
-      color: #d8b9ff;
-    }
-
-    a {
-      color: #fff;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: #d8b9ff;
-    }
-  </style>
+  <title>Maham Saleem Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <div class="portfolio-container">
+    <header class="profile-card">
+      <img src="profile.jpg" alt="Maham Saleem" class="profile-img">
+      <h1>Maham Saleem</h1>
+      <h3>Web Developer & Designer</h3>
+      <div class="contact-info">
+        <p><i class="fa fa-envelope"></i> maham@example.com</p>
+        <p><i class="fa fa-phone"></i> +92 300 0000000</p>
+        <p><i class="fa fa-map-marker"></i> Rawalpindi, Pakistan</p>
+      </div>
+    </header>
 
-  <header>
-    <h1>Maham Saleem</h1>
-    <p>Computer Science Student | Cloud Computing Enthusiast | Web Developer</p>
-  </header>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I am a web developer with a passion for creating beautiful and responsive websites. I love coding, learning new technologies, and building projects that make an impact.</p>
+    </section>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a passionate and hardworking computer science student with interests in cloud computing,
-      web technologies, and open-source development. I love learning new tools and improving my technical skills.
-    </p>
-  </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+      </div>
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <ul>
-      <li><strong>BS Computer Science</strong> – Virtual University of Pakistan (Expected 2025)</li>
-      <li><strong>Intermediate</strong> – Punjab College</li>
-      <li><strong>Matriculation</strong> – Sunrise Montessori School</li>
-    </ul>
-  </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Created a responsive portfolio website using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Blog Platform</h3>
+        <p>Developed a blog platform with user authentication and CRUD functionality.</p>
+      </div>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Python</span>
-      <span>Git</span>
-      <span>Cloud Computing</span>
-    </div>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Cloud Computing Setup</strong> – Configured cloud environments using Gitea, GitHub, and Docker.</li>
-      <li><strong>Portfolio Website</strong> – Designed a responsive personal site using HTML and CSS.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:mahamsaleem123@gmail.com">mahamsaleem123@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/MahamSaleem123" target="_blank">github.com/MahamSaleem123</a></p>
-  </section>
-
-  <footer>
-    © 2025 Maham Saleem | All Rights Reserved
-  </footer>
-
+    <footer>
+      <p>&copy; 2025 Maham Saleem</p>
+    </footer>
+  </div>
 </body>
 </html>
-
